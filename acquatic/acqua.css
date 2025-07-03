@@ -1,0 +1,245 @@
+
+/* NAVIGATION */
+.body1{
+background-image: url('images/aquatic.jpg') ;
+background-size:100%;
+background-attachment: fixed;
+}
+
+
+
+
+.navbar{
+  background-color: #00000030 !important;
+ }
+.nav-item{
+  color: rgb(7, 26, 50);
+  background-color: rgba(136, 208, 208, 0.697);
+  
+}
+.nav-item:hover{
+  color: rgba(251, 252, 252, 0.697);
+}
+.menu{
+  color: rgb(255, 255, 255) !important;
+  font-size: larger !important;
+  font-weight: bold !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+  margin-left: 0 !important;
+}
+.menu:hover{
+  color:black !important;
+  background-color: rgb(169, 231, 234) !important;
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 14px !important;
+}
+#navbarToggler{
+  gap: 0.7rem;
+  margin-left: 55rem !important;
+
+}
+@media  screen and (max-width:770px) {
+  #navbarToggler{
+      margin-left: 0rem !important;
+  
+   } 
+   .signin{
+      margin-top: 2rem;
+   }
+   .navbar-toggler{
+      margin-top: 1rem;
+   }
+   #logo_img{
+      width: 100%;
+      margin-left: 0;
+  }
+  .logo{
+      margin: 0;
+      width: 20% !important;
+  }
+}
+.navbar-brand{
+  color:white;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo{
+  margin: 0;
+  width: 6%;
+}
+#logo_img{
+  width: 100%;
+  margin-left: 0;
+}
+.dropdown-menu-dark{
+  --bs-dropdown-bg: #4490a1;
+}
+
+/*Home*/
+
+.signin{
+  margin-right: 2rem;
+}
+#btn_sign{
+  width: 6rem;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border:white,solid,2px;
+  border-radius: 14px;
+}
+#btn_sign:hover{
+  color:black;
+  border:none;
+  background-color: rgb(169, 231, 234);
+  transform: translateY(-3px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.navbar{
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+}
+
+
+/* content */
+.cards{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+   
+}
+
+.card1{
+    width:30%;
+    height:25rem;
+    margin-top:5rem;
+    margin-left:13rem;
+   
+    
+ 
+}
+.card2{
+    width:30%;
+    height:25rem;
+    margin-top:15rem;
+    margin-left: 10rem;
+  
+    
+}
+.card3{
+    width:30%;
+    height:25rem;
+    margin-top:6rem;
+    margin-left: 13rem;
+    
+}
+
+.card4{
+    width:30%;
+    height:25rem;
+    margin-top:15rem;
+    margin-left: 10rem;}
+
+    
+.card5{
+    width:30%;
+    height:25rem;
+    margin-top:2rem;
+    margin-left: 13rem;
+    
+}
+img:not(#logo_img){
+  background-size:cover;
+  border:solid,white,6px;
+  box-shadow: 2px 2px 2px 2px black;
+  
+}
+
+h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  text-shadow:3px 2px black ;
+}
+p{
+  font-weight: 100;
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: left;
+  margin-left:1rem;
+}
+.card1:hover{
+  box-shadow: 2px 2px 2px 2px black;
+  
+}
+.card2:hover{
+  box-shadow: 2px 2px 2px 2px black;
+}
+.card3:hover{
+  box-shadow: 2px 2px 2px 2px black;
+}
+.card4:hover{
+  box-shadow: 2px 2px 2px 2px black;
+}
+.card5:hover{
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.flip-box {
+    /* background-color: transparent; */
+    width: 100%;
+    height: 25rem;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  
+  }
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back {
+    background-color: #00000030;
+    color: white;
+    transform: rotateY(180deg);
+  }
+ 
+  .pagination{
+    color:black !important;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .flip-box:hover.flip-box-back{
+    transform:perspective(500px)rotateY(180deg);
+  }
+
+
+
+
+
+
+
+
